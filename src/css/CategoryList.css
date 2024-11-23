@@ -1,0 +1,75 @@
+.category-list-container {
+  background-color: #f7f9fc;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.category-list-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category-list-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.error-message {
+  color: #ff0000;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.category-list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.category-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.category-item:hover {
+  transform: scale(1.02);
+}
+
+.category-info h3 {
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.category-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete-button {
+  padding: 8px 15px;
+  font-size: 1rem;
+  color: white;
+  background-color: #ff4d4d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #e60000;
+  transform: translateY(-2px);
+}
+
+.delete-button:active {
+  background-color: #cc0000;
+  transform: translateY(1px);
+}

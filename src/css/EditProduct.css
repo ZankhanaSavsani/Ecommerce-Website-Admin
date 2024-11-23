@@ -1,0 +1,130 @@
+/* EditProduct.css */
+
+.edit-product-page {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.edit-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field,
+.textarea-field,
+.select-field,
+.file-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus,
+.textarea-field:focus,
+.select-field:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.textarea-field {
+  height: 100px;
+  resize: vertical;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+}
+
+.checkbox-label input {
+  transform: scale(1.2);
+}
+
+.submit-button {
+  padding: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:active {
+  background-color: #388e3c;
+}
+
+.submit-button:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.file-input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+.file-input:focus {
+  border-color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+  .edit-product-page {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .input-field,
+  .textarea-field,
+  .select-field,
+  .submit-button {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .textarea-field {
+    height: 80px;
+  }
+}

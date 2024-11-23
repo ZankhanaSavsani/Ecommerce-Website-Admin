@@ -1,0 +1,106 @@
+/* ProductDelete.css */
+
+.product-delete-page {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .product-delete-page h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  .loading, .error {
+    font-size: 18px;
+    text-align: center;
+    color: #f39c12;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .delete-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .delete-buttons button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c; /* Red for delete */
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .delete-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cancel-button {
+    background-color: #95a5a6; /* Gray for cancel */
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #7f8c8d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cancel-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .product-delete-page {
+      padding: 30px;
+      margin: 60px auto;
+    }
+  
+    .product-delete-page h1 {
+      font-size: 24px;
+    }
+  
+    .delete-buttons {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .delete-buttons button {
+      padding: 12px 25px;
+      font-size: 14px;
+    }
+  }
+  
+  .product-delete-page:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
+  }
+  

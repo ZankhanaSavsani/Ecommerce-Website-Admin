@@ -1,0 +1,83 @@
+.delete-category-container {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+  }
+  
+  .delete-button:active {
+    background-color: #922b21;
+    transform: translateY(1px);
+  }
+  
+  .cancel-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .cancel-button:active {
+    background-color: #1f6e91;
+    transform: translateY(1px);
+  }
+  
+  strong {
+    color: #007bff;
+    font-weight: bold;
+  }
